@@ -36,7 +36,7 @@ plt.ylabel('Inductance(H)')
 plt.subplot(212)
 plt.plot(g, L2, '-r.')
 plt.xlabel('Air Gap Lenght (m)')
-plt.ylabel('Iinductance(H)')
+plt.ylabel('Inductance(H)')
 
 plt.show()
 
