@@ -1,3 +1,5 @@
+#Author: Klebiano Kennedy
+#Year: 2018
 import matplotlib.pyplot as plt
 from numpy import linspace
 
