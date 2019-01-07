@@ -3,7 +3,7 @@
 import matplotlib.pyplot as plt
 from numpy import linspace
 
-# Program to plot the inductance by depending of the permeability of the material or Airgap
+# Program to plot the inductance by depending of the permeability of the material or Air Gap
 
 N = 500                     #Number of Turns
 Ac = 0.0009                 #meters^2       
@@ -33,7 +33,7 @@ plt.ticklabel_format(style='sci', axis='x', scilimits=(-3, 4))
 plt.subplot(212)
 plt.plot(g, L2, '-r.')
 plt.xlabel('Air Gap Lenght (m)', fontweight='bold')
-plt.ylabel('Iinductance(H)', fontweight='bold')
+plt.ylabel('Inductance(H)', fontweight='bold')
 plt.ticklabel_format(style='sci', axis='x', scilimits=(-3, 4))
 plt.show()
 
